@@ -1,0 +1,183 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://inigoiparragirre.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+#baseurl: /personal-jekyll-theme
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-35880426-4"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: False
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Iñigo Iparragirre"
+title: "{ Iñigo Iparragirre }"
+description: "Iñigo Iparragirreren webgunea eta bloga, teknologiei buruz blogeatzen. Nire eritziak."
+keywords: "jekyll, inigo, iparra"
+favicon: "/img/favicon.ico"
+404-img: "/img/labtocat.png"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "Our greatest glory is not in never falling, but in rising every time we fall"
+  - text: "I hear and I forget. I see and I remember. I do and I understand."
+
+me-img: "/img/ini.jpg"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "inigoiparragirre"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/iksim-beltza.png"
+    date: "Iraila 2013 - Gaur arte"
+    description: "Software injenieritza eta programazioa! (IKSIM)"
+  - image: "/img/timeline/vicomtech.png"
+    date: "2011 - 2013"
+    description: "I+D proiektuen garapena eta 3D programazioa! (VICOMTECH-IK4)"
+  - image: "/img/timeline/china.jpg"
+    date: "2010"
+    description: "Himalaiatik bizikletan!"
+  - image: "/img/timeline/logofp.jpg"
+    date: "2005 - 2009"
+    description: "Errealitate Birtualaren bidean. Hezkuntzarako 3D teknologien dinamizatzailea (TKNIKA)"
+  - image: "/img/timeline/virufre.jpg"
+    date: "2001 - 2005"
+    description: "VIRTOOL proiektuan software garapena: makina herramientaren ikaskaskuntza errealitate birtualaren bitartez (CEIT-IK4)"
+  - image: "/img/timeline/tecnun.jpeg"
+    date: "2001"
+    description: "Ingenieritza Industrialeko ikasketak (TECNUN)"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "inigoiparraguirre@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/iiparragirre"
+  - title: "twitter"
+    url: "https://twitter.com/inigoiparra"
+  - title: "github"
+    url: "https://github.com/inigoiparragirre/"
+  - title: "rss"
+    url: "/feed.xml"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  Niri buruz: 'about'
+  Bloga: 'latest-post'
+  Denboralerroa: 'timeline'
+  Kontaktua: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
