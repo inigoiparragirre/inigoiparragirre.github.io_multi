@@ -28,7 +28,7 @@ force-https: False
 # HTML Head #
 #############
 
-lang: "en"
+lang: "eu"
 author: "Iñigo Iparragirre"
 title: "{ Iñigo Iparragirre }"
 description: "Iñigo Iparragirreren webgunea eta bloga, teknologiei buruz blogeatzen. Nire eritziak."
@@ -138,6 +138,8 @@ email: "inigoiparraguirre@gmail.com"
 ##################
 
 social:
+  - title: "linkedin"
+    url: "https://es.linkedin.com/in/inigoiparragirre"
   - title: "facebook"
     url: "https://facebook.com/iiparragirre"
   - title: "twitter"
@@ -161,8 +163,9 @@ social:
 
 pages_list:
   Niri buruz: 'about'
+  Gaitasunak: 'skills'
   Bloga: 'latest-post'
-  Denboralerroa: 'timeline'
+  Kronograma: 'timeline'
   Kontaktua: 'contact'
 
 # Exclusion list from the generated _site
