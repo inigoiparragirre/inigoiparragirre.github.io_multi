@@ -106,7 +106,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/iksim-beltza.png"
     date: "Iraila 2013 - Gaur arte"
-    description: "Software ingeniaritza eta programazioa! (IKSIM)"
+    description: "Software ingeniaritza eta aplikazioen garapena! (Freelance)"
   - image: "/img/timeline/vicomtech.png"
     date: "2011 - 2013"
     description: "I+D proiektuen garapena eta 3D programazioa! (VICOMTECH-IK4)"
