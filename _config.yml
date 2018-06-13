@@ -104,7 +104,7 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/iksim-beltza.png"
+  - image: "/img/timeline/logo.png"
     date: "Iraila 2013 - Gaur arte"
     description: "Software ingeniaritza eta aplikazioen garapena! (Freelance)"
   - image: "/img/timeline/vicomtech.png"
